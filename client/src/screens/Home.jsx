@@ -49,11 +49,14 @@ const Home = () => {
           <div className="company-info">
             <h2>Sunny Movers Guarantee!</h2>
             <p>
-              We are a reliable and professional moving company dedicated to
-              making your move stress-free. With years of experience, we
-              guarantee a fast and easy move for you and your family. Our team
-              of skilled movers will handle your belongings with care and ensure
-              they arrive safely at your new home.
+              Welcome to Sunny Movers, the leading choice for stress-free moving
+              services in Florida! Our expert team specializes in personalized
+              relocations tailored to your needs. With years of industry
+              experience, we ensure smooth and efficient moves for you and your
+              family. Trust our skilled movers to handle your belongings with
+              care, guaranteeing a secure transition to your new home. Discover
+              unparalleled service with Sunny Movers, your trusted partner for
+              reliable and professional moving solutions in Florida.
             </p>
           </div>
           <div className="photo-grid">
@@ -72,10 +75,12 @@ const Home = () => {
               <strong>Local Moves</strong>
             </p>
             <p>
-              Smooth and stress-free residential moving solutions tailored to
-              your needs. Our expert team ensures a seamless transition, from
-              careful packing to timely delivery. Trust us to handle your
-              belongings with care and precision, making your move a breeze.
+              Discover smooth and stress-free residential moving solutions
+              tailored to your needs. Our expert team guarantees a seamless
+              transition, handling everything from careful packing to timely
+              delivery. Trust us to handle your belongings with care and
+              precision, ensuring a hassle-free move for you. Choose our
+              services for a breeze of a relocation experience.
             </p>
           </div>
           <div className="service-card">
@@ -84,11 +89,11 @@ const Home = () => {
               <strong>Commercial Moving</strong>
             </p>
             <p>
-              Streamlined commercial moving solutions for your business
-              transition. Our expert team ensures minimal disruption, providing
-              tailored plans and flexible scheduling to meet your needs. Trust
-              us for a seamless move that keeps your business operations running
-              smoothly.
+              Explore streamlined commercial moving solutions designed for your
+              business transition. Our expert team prioritizes minimizing
+              disruption, offering customized plans and flexible scheduling to
+              suit your requirements. Rely on us for a seamless move that
+              maintains the smooth operation of your business.
             </p>
           </div>
           <div className="service-card">
@@ -97,11 +102,11 @@ const Home = () => {
               <strong>Storage Services</strong>
             </p>
             <p>
-              Secure, convenient storage solutions tailored to your needs. Our
-              facilities offer 24/7 surveillance and climate-controlled units
-              for maximum protection. Flexible rental options ensure
-              affordability and convenience. Store with confidence and reclaim
-              your space today!
+              Explore secure and convenient storage solutions tailored to your
+              needs. Our facilities offer 24/7 surveillance and
+              climate-controlled units for maximum protection. With flexible
+              rental options ensuring affordability and convenience, store
+              confidently and reclaim your space today!
             </p>
           </div>
         </div>

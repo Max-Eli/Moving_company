@@ -1,6 +1,9 @@
 /* Nav Bar */
 * {
   margin: 0 auto;
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .navbar {
@@ -21,9 +24,6 @@
   display: flex;
 }
 
-.navbar-item {
-  margin-right: 10px;
-}
 
 .navbar-link {
   color: #fff;
@@ -35,6 +35,28 @@
 .navbar-link:hover {
   text-decoration: underline;
 }
+
+.navbar-item {
+  margin-left: 20px; /* Adjust the spacing between navbar items */
+}
+
+.request-quote {
+  background-color: whitesmoke; /* Set background color */
+  color: black; /* Set text color */
+  padding: 10px 20px; /* Set padding */
+  border-radius: 5px; /* Add border radius */
+  text-decoration: none; /* Remove underline */
+  transition: background-color 0.3s ease; /* Add transition effect */
+}
+
+.request-quote:hover {
+  background-color: #FFA500; /* Change background color on hover */
+}
+
+.navbar-item:last-child {
+  margin-right: 20px; /* Adjust spacing for the last navbar item */
+}
+
 
 /* Home.css */
 
@@ -229,7 +251,9 @@ select {
   text-align: center; /* Center the text */
 }
 
-
+.services-cards{
+  margin-bottom: 10px;
+}
 
 /* Coverage Section Styles */
 /* Locations We Serve Section */
@@ -239,6 +263,14 @@ select {
   padding: 50px;
   text-align: center;
   height: 300px;
+}
+
+.coverages-section {
+  background-size: cover;
+  background-position: center;
+  padding: 50px;
+  text-align: center;
+  height: 650px;
 }
 
 .coverage-heading {
@@ -377,6 +409,98 @@ select {
 
 .contact-info strong {
   font-weight: bold;
+}
+
+
+/* about us */
+
+
+/* About.css */
+.abouts-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align content horizontally */
+}
+
+.images-container {
+  width: 100%;
+}
+
+.abouts-image {
+  width: 100%;
+  max-width: 100vw;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.contents-container {
+  display: flex;
+  justify-content: center; /* Center align content horizontally */
+  align-items: flex-start;
+  margin-top: 20px;
+  max-width: 800px;
+}
+
+.abouts-info {
+  margin-right: 20px;
+  width: 50%; /* Adjusted width */
+}
+
+.abouts-info h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: xx-large;
+}
+
+.abouts-info p {
+  font-size: x-large;
+}
+
+.aboutform-container {
+  width: 40%; /* Adjusted width */
+  margin-top: 100px;
+}
+
+
+/* About.css */
+
+.customer-reviews {
+  margin-top: 40px;
+}
+
+.reviews-heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.review-columns {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.review-column {
+  flex: 0 1 calc(33.33% - 20px); /* Adjust width as needed */
+  margin-bottom: 20px;
+}
+
+.review-card {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  margin: 10px;
+}
+
+.review-card h3 {
+  margin-bottom: 10px;
+}
+
+.review-card p {
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 

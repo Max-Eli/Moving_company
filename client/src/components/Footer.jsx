@@ -8,6 +8,7 @@ const Footer = () => {
         <div className="footer-column bname">
           <h4>Sunny Movers</h4>
           <p>609-787-1878</p>
+          <p>sunnymoversfl@gmail.com</p>
         </div>
         <div className="footer-column">
           <h4>Cities We Serve</h4>
@@ -32,6 +33,7 @@ const Footer = () => {
             <li>Miramar</li>
             <li>Pembroke Pines</li>
             <li>Davie</li>
+            <li>Coconut Creek</li>
           </ul>
         </div>
       </div>

@@ -44,7 +44,7 @@ const Contact = () => {
             <strong>Phone:</strong> +1 (609)787-1878
           </p>
           <p>
-            <strong>Email:</strong> SunnyMoverFL@gmail.com
+            <strong>Email:</strong> SunnyMoversFL@gmail.com
           </p>
           <p>
             <strong>Business Hours:</strong> Mon-Sun: 8am - 8pm
