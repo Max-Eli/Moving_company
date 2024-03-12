@@ -19,7 +19,7 @@ const LeadForm = ({ onSubmit }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    axios.post('http://localhost:8000/api/leads', lead)
+    axios.post('http://sunny-mover.com/api/leads', lead)
         .then( (response) =>{
             console.log(response)
         })
